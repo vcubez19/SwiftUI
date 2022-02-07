@@ -14,6 +14,9 @@
 		3210265F27B1A4EF00ADCC30 /* CovidTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210265E27B1A4EF00ADCC30 /* CovidTrackTests.swift */; };
 		3210266927B1A4EF00ADCC30 /* CovidTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210266827B1A4EF00ADCC30 /* CovidTrackUITests.swift */; };
 		3210266B27B1A4EF00ADCC30 /* CovidTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210266A27B1A4EF00ADCC30 /* CovidTrackUITestsLaunchTests.swift */; };
+		3210267827B1A51800ADCC30 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210267727B1A51800ADCC30 /* Models.swift */; };
+		3210267A27B1A5B400ADCC30 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210267927B1A5B400ADCC30 /* Data.swift */; };
+		3210267C27B1B05400ADCC30 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210267B27B1B05400ADCC30 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3210266427B1A4EF00ADCC30 /* CovidTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovidTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3210266827B1A4EF00ADCC30 /* CovidTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidTrackUITests.swift; sourceTree = "<group>"; };
 		3210266A27B1A4EF00ADCC30 /* CovidTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3210267727B1A51800ADCC30 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3210267927B1A5B400ADCC30 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3210267B27B1B05400ADCC30 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				3210264D27B1A4EE00ADCC30 /* CovidTrackApp.swift */,
 				3210264F27B1A4EE00ADCC30 /* ContentView.swift */,
+				3210267B27B1B05400ADCC30 /* DetailView.swift */,
+				3210267727B1A51800ADCC30 /* Models.swift */,
+				3210267927B1A5B400ADCC30 /* Data.swift */,
 				3210265127B1A4EF00ADCC30 /* Assets.xcassets */,
 				3210265327B1A4EF00ADCC30 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3210267827B1A51800ADCC30 /* Models.swift in Sources */,
 				3210265027B1A4EE00ADCC30 /* ContentView.swift in Sources */,
 				3210264E27B1A4EE00ADCC30 /* CovidTrackApp.swift in Sources */,
+				3210267C27B1B05400ADCC30 /* DetailView.swift in Sources */,
+				3210267A27B1A5B400ADCC30 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
